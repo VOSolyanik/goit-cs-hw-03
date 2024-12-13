@@ -9,6 +9,7 @@ It will run postgres and python app in container, connect app to DB, create tabl
 ### Task 2
 
 - Run `docker-compose up --build` to run MongoDB
-- `python -m venv .venv` or `python3 -m venv .venv` створити віртуальне оточення
-- `source .venv/bin/activate` активувати віртуальне оточення на Mac, Linux
-- `pip3 install -r requirements.txt` встановити потрібні пакети
+- `python -m venv .venv` or `python3 -m venv .venv` to create virtual environment
+- `source .venv/bin/activate` to activate venv
+- `pip3 install -r requirements.txt` install packages
+- `python3 main.py` - to run main program
